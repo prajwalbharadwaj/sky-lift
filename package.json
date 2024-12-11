@@ -1,0 +1,37 @@
+{
+  "name": "just-score",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 8080 --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@iconify/json": "^2.2.237",
+    "@primevue/themes": "^4.0.4",
+    "@vueuse/components": "^10.11.1",
+    "@vueuse/core": "^10.11.1",
+    "dayjs": "^1.11.12",
+    "lodash-es": "^4.17.21",
+    "pinia": "^2.1.7",
+    "primevue": "^4.0.4",
+    "sass": "^1.77.8",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.40.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "unocss": "^0.55.7",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-icons": "^0.19.2",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.3.1",
+    "vite-plugin-vue-devtools": "^7.3.1"
+  }
+}

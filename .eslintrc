@@ -1,0 +1,44 @@
+{
+  "extends": [
+    "@antfu"
+  ],
+  "ignorePatterns": [
+    "storybook-static/**",
+    "local_modules/**",
+    ".storybook/**",
+    ".github/**",
+    ".vscode/**",
+    "env/**"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.tsx",
+        "*.ts",
+        "*.jsx",
+        "*.js",
+        "*.vue"
+      ],
+      "rules": {
+        "no-console": "off",
+        "semi": [
+          2,
+          "always"
+        ],
+        "prefer-const": "error",
+        "import/no-unresolved": "off",
+        "@typescript-eslint/semi": "off",
+        "curly": [
+          "error",
+          "multi",
+          "consistent"
+        ],
+        "vue/prop-name-casing": [
+          "error",
+          "snake_case"
+        ],
+        "vue/v-on-event-hyphenation": "off"
+      }
+    }
+  ]
+}
