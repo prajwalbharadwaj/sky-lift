@@ -1,35 +1,21 @@
 @import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+.p-border {
+  @apply border border-solid border-red-500;
+}
+.p-border-l {
+  @apply border-l border-l-solid border-gray-200;
+}
+.p-border-r {
+  @apply border-r border-r-solid border-gray-200;
+}
+.p-border-t {
+  @apply border-t border-t-solid border-gray-200;
+}
+.p-border-b {
+  @apply border-b border-b-solid border-gray-200;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.card-header {
+  @apply mb-2 text-gray-500 font-semibold text-gray-600 text-lg;
 }

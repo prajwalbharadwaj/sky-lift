@@ -1,10 +1,10 @@
 {
   "name": "just-score",
+  "type": "module",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
   "scripts": {
-    "dev": "vite --port 8080 --open",
+    "dev": "vite --port 8080 --open --host",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
